@@ -1,0 +1,32 @@
+git  init
+
+ sudo git clone ssh://git@github.com/Saurabh1997/Fabric-Chaincodes.git
+
+
+git config --global user.email "patilsaurabh.2013@gmail.com"
+git config --global user.email
+
+git config --global user.name "Saurabh1997"
+
+git add .
+
+git commit -m "First commit"
+
+git remote add origin https://github.com/Saurabh1997/Fabric-Chaincodes.git
+
+		(username/repository URL )
+
+
+git remote -v
+
+
+git push -f origin master
+
+
+
+to remove node_modules folder : make .gitignore file with "node_modules/" as first line. then:
+
+git rm -r --cached .
+git add .
+git commit -m "remove gitignore files"
+git push
